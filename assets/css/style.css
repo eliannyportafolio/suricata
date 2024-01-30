@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.bg-rosadito{
+    background-color: #E83E8C; 
+}
+h1{
+    font-size: 3 rem;
+}
+.bg-color-dinfo{
+    background-color: #17a2b8;
+}
+.text-colorh5 {
+    color:#373A3C
+}
+.imagen-footer{
+    width: 3%;
+}
+ 
+@media screen and (max-width: 576px){
+    .imagen-footer{
+        width:10%;
+    } 
+}
+@media screen and (max-width: 577px) and (max-width:992px){
+    .imagen-footer{
+        width:15%;
+    } 
+}
